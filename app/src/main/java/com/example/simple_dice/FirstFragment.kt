@@ -36,7 +36,7 @@ class FirstFragment : Fragment() {
 
         var random = java.util.Random()
 
-        var randomNum = random.nextInt(5) + 1
+        var randomNum = random.nextInt(6) + 1
 
         resultView.text = randomNum.toString()
 
